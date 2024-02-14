@@ -1,5 +1,3 @@
-// removeItem(itemToRemove) — приймає рядок з назвою товару itemToRemove і видаляє його з масиву
-// товарів у приватній властивості items об'єкта.
 class Storage {
   #item;
   constructor(item) {
