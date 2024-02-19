@@ -11,6 +11,7 @@ class Storage {
   }
   removeItem(itemToRemove) {
     this.#item = this.#item.filter(item => item != itemToRemove);
+    
   }
 }
 const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
